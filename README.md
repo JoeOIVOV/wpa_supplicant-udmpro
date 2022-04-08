@@ -72,14 +72,14 @@ vi /mnt/data/on_boot.d/10-wpa_supplicant.sh
 
 podman start wpa_supplicant-udmpro
 
-```
 
-podman start wpa_supplicant-udmpro
+8. Update the permissions on the script:
+```
 chmod +x /mnt/data/on_boot.d/10-wpa_supplicant.sh
 
 ```
 
-8. Before rebooting, make sure to update the mac address in the Network>Settings>Internet for the WAN port or the internet will not work.
+Before rebooting, make sure to update the mac address in the Network>Settings>Internet for the WAN port or it will not work.
 
 
 ## troubleshooting
