@@ -1,5 +1,5 @@
 # wpa_supplicant for UDM and UDM Pro
-## UPDATE 04.08.2022
+## UPDATED 04.08.2022
 
 ## overview
 This guide has primarily been written for authenticating to AT&T U-Verse using wpa_supplicant on a UDM Pro.  It is assumed that you've already retrieved your certificates from a modem supplied by AT&T.  If you have not, you can purchase a used modem on ebay, such as the NVG589 and then root it to get the certificates.  I had success using the following guide.
