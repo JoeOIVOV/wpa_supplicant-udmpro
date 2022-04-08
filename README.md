@@ -73,7 +73,7 @@ vi /mnt/data/on_boot.d/10-wpa_supplicant.sh
 podman start wpa_supplicant-udmpro
 
 ```
-```
+
 podman start wpa_supplicant-udmpro
 chmod +x /mnt/data/on_boot.d/10-wpa_supplicant.sh
 
