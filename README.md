@@ -69,6 +69,9 @@ vi /mnt/data/on_boot.d/10-wpa_supplicant.sh
 podman start wpa_supplicant-udmpro
 
 
+
+
+
 8. Update the permissions on the script:
 ```
 chmod +x /mnt/data/on_boot.d/10-wpa_supplicant.sh
