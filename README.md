@@ -1,5 +1,5 @@
 # wpa_supplicant for UDM and UDM Pro
-## UPDATE 04.08.2021
+## UPDATE 04.08.2022
 For v1.6.3 and newer you need to run your container with podman instead which changes the command slightly.  Below is an example of how to do this.  Keep in mind that currently there is an alias for docker to point to the podman executable on the UDM Pro since it was made to be a drop in replacement for docker commands.  I would still run this with the podman executable just in case that alias goes away in the future.
 ```
 podman run --privileged --network=host --name=wpa_supplicant-udmpro -v /mnt/data/podman/wpa_supplicant/:/etc/wpa_supplicant/conf/ --log-driver=k8s-file --restart always -d -ti pbrah/wpa_supplicant-udmpro:v1.0 -Dwired -ieth8 -c/etc/wpa_supplicant/conf/wpa_supplicant.conf
